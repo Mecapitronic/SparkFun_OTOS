@@ -1,0 +1,221 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "X (Meters)",
+               "sourceNames": [
+                  "X (Meters)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "X (Meters)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "X (Meters/sec)",
+               "sourceNames": [
+                  "X (Meters/sec)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "X (Meters/sec)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "X (Meters/sec^2)",
+               "sourceNames": [
+                  "X (Meters/sec^2)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "X (Meters/sec^2)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Y (Meters)",
+               "sourceNames": [
+                  "Y (Meters)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Y (Meters)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Y (Meters/sec)",
+               "sourceNames": [
+                  "Y (Meters/sec)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Y (Meters/sec)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Y (Meters/sec^2)",
+               "sourceNames": [
+                  "Y (Meters/sec^2)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Y (Meters/sec^2)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Heading (Degrees)",
+               "sourceNames": [
+                  "Heading (Degrees)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Heading (Degrees)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Heading (Degrees/sec)",
+               "sourceNames": [
+                  "Heading (Degrees/sec)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Heading (Degrees/sec)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 4,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "Heading (Degrees/sec^2)",
+               "sourceNames": [
+                  "Heading (Degrees/sec^2)"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "Heading (Degrees/sec^2)",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": "30"
+}
