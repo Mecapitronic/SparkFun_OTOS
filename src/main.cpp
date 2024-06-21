@@ -74,6 +74,27 @@ void setup()
     // Reset the tracking algorithm - this resets the position to the origin,
     // but can also be used to recover from some rare tracking errors
     myOtos.resetTracking();
+
+    sfeTkError_t error;
+    sfe_otos_signal_process_config_t config;
+    error = myOtos.getSignalProcessConfig(config);
+    if (error != 0)
+    {
+        Serial.print("Error get Signal Process Config : ");
+        Serial.println(error);
+    }
+    else
+    {
+        Serial.println("Signal Process Config :");
+        Serial.print("enVar : ");
+        Serial.println(config.enVar);
+        Serial.print("enRot : ");
+        Serial.println(config.enRot);
+        Serial.print("enAcc : ");
+        Serial.println(config.enAcc);
+        Serial.print("enLut : ");
+        Serial.println(config.enLut);
+    }
 }
 
 void loop()
